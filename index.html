@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <nav class="flex justify-between bg-slate-700 text-slate-300 items-center p-4">
@@ -15,10 +17,24 @@
             <i class="fa fa-user-circle-o mr-3 fa-2x" aria-hidden="true"></i>
         </div>
     </nav>
+<<<<<<< HEAD
 
     <div class="bg-slate-100 w-fit">
         <input type="text" placeholder="Enter List Name..." class="text-2xl p-1 border-4">
         
+=======
+    <div class="flex">
+       <div class="bg-slate-100 w-1/5 rounded">
+            <div class="flex justify-around w-full">
+                <input type="text" placeholder="Enter List Name..." class="text-2xl p-1 border-4 listInput">
+                <button class="p-2">Add List</button>
+            </div>
+            <ul id="listsContainer"></ul>
+        </div>
+        <div  id="selectedListDisplay" class="selected-list">
+            <!-- Display the selected list content here -->
+        </div>
+>>>>>>> 531301f619037b468c280559a1c4c698a3c7b26f
     </div>
 </body>
 </html>
