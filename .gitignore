@@ -1,6 +1,0 @@
-*.json
-*.css
-/node_modules
-*.js
-!main.js
-!main.css
